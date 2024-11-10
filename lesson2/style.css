@@ -1,0 +1,33 @@
+.container {
+
+    /* để đổi màu backgropund, mix màu*/
+    background-color: background: palevioletred rgb(238, 174, 202)
+        /*thay đổi chiều rộng*/
+        background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 500px;
+    /*thiết lập đường viền*/
+    padding: 20px;
+    /* thiết lập vùng đệm mô tả*/
+    text-align: center;
+    margin: auto;
+    /*căn lề*/
+    border-radius: 10px;
+    /* thiết lập đường viền*/
+}
+
+.header_infor {
+    text-align: center;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    /*định dạng ảnh*/
+    border-radius: 50%;
+}
+
+.name {
+    font-variant: normal;
+    text-align: center;
+}
